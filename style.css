@@ -1,0 +1,27 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 30px;
+    background-color: #b7e4c7;
+    margin-top: 2%;
+}
+
+hr{
+    width: 30%;
+    margin:0 ;
+
+}
+
+.profilepic{
+    border-radius: 50%;
+    width: 200px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.profile{
+    display: flex;
+}
+.profiledata{
+    margin-left: 20px;
+}

@@ -1,0 +1,129 @@
+*:focus {
+    outline: 0 !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    font-family: 'Work Sans', sans-serif;
+    background-color: #0A0A0A;
+    color: white ;
+    
+       
+}
+
+li, a{
+    text-decoration: none;
+    color: #ffffffb9;
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20%;
+    font-size: 20px ;
+    
+}
+
+.logo-head{
+    margin-right: auto;  
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.logo-head:hover{
+    opacity: 0.8;
+}
+.logo{
+    cursor: pointer;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navlist li{
+    display: inline-block;
+    padding: 0 1rem;
+
+}
+.nav{
+    padding-right: 1rem;
+}
+nav{
+    
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    
+}
+button{
+    border-radius: 50px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.35s;
+    font-size: 18px;
+}
+
+.contact-btn{
+    background-color: #449df0;
+    color: #FFFFFF;
+    margin-left: 18px;
+    
+    
+}
+
+.contact-btn:hover{
+    opacity: 0.75;
+    
+}
+
+.container1{
+    height: 80vh;
+    
+    margin: auto;
+    margin-top: 50px;
+}
+
+.welcome-text{
+    text-align: center;
+    
+    width: 80%;
+    margin:auto;
+    
+    padding-top: 200px;
+
+}
+.welcome-text h4 {
+    font-size: 40px;
+    color: #B2B2B2;
+}
+
+.welcome-text h1 {
+    font-size: 100px;
+
+}
+
+.welcome-text h3 {
+    font-size: 50px;
+    margin-top: 15px;
+
+}
+
+.welcome-text h3 span {
+    color: #FF3366;
+}
+
+.welcome-image{
+    width: 800px;
+    align-items: flex-end;
+}
+
+
